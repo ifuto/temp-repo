@@ -1,7 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
 <Inventories>
     <Inventory>
         <!-- Simple patrol config with two pistol variants and small chance of a shotgun -->
-        <Name>Patrol</Name>
+        <Name>パトロール</Name>
         <ScriptName>patrol</ScriptName>
         <Weapon chance="10">WEAPON_PUMPSHOTGUN</Weapon>
         <Weapon chance="45">WEAPON_COMBATPISTOL</Weapon>
@@ -10,7 +11,7 @@
     </Inventory>
     <Inventory>
         <!-- Same as above but with a stungun -->
-        <Name>Patrol (Stun)</Name>
+        <Name>パトロール（スタンガン）</Name>
         <ScriptName>patrol_stun</ScriptName>
         <Weapon chance="10">WEAPON_PUMPSHOTGUN</Weapon>
         <Weapon chance="45">WEAPON_COMBATPISTOL</Weapon>
@@ -18,13 +19,13 @@
     </Inventory>
     <Inventory>
         <!-- Simple config with just a combat pistol for motor cops -->
-        <Name>Motor Patrol</Name>
+        <Name>交通機動パトロール</Name>
         <ScriptName>biker</ScriptName>
         <Weapon>WEAPON_COMBATPISTOL</Weapon>
     </Inventory>
     <Inventory>
         <!-- Simple config with only a pistol - good as a default -->
-        <Name>Default</Name>
+        <Name>標準</Name>
         <ScriptName>default</ScriptName>
         <Weapon>WEAPON_PISTOL</Weapon>
     </Inventory>

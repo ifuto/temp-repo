@@ -1,10 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
 <Outfits>
 	<Outfit>
-		<Name>The Cop</Name>
+		<Name>警察官</Name>
 		<ScriptName>lspd_cop</ScriptName>
 		<Variations>
 			<Variation>
-				<Name>Officer</Name>
+				<Name>巡査</Name>
 				<ScriptName>m_base</ScriptName>
 				<Gender>male</Gender>
 				<Components>
@@ -22,7 +23,7 @@
 			</Variation>
 			<Variation>
 				<Base>m_base</Base>
-				<Name>Officer III</Name>
+				<Name>巡査部長</Name>
 				<Gender>male</Gender>
 				<Components>
 					<Component id="10" drawable="8" texture="1" />
@@ -30,7 +31,7 @@
 			</Variation>
 			<Variation>
 				<Base>m_base</Base>
-				<Name>Senior Officer</Name>
+				<Name>上級巡査</Name>
 				<Gender>male</Gender>
 				<Components>
 					<Component id="10" drawable="8" texture="2" />
@@ -38,14 +39,14 @@
 			</Variation>
 			<Variation>
 				<Base>m_base</Base>
-				<Name>Detective</Name>
+				<Name>刑事</Name>
 				<Gender>male</Gender>
 				<Components>
 					<Component id="10" drawable="8" texture="3" />
 				</Components>
 			</Variation>
 			<Variation>
-				<Name>Officer</Name>
+				<Name>巡査</Name>
 				<ScriptName>f_base</ScriptName>
 				<Gender>female</Gender>
 				<Components>
@@ -63,7 +64,7 @@
 			</Variation>
 			<Variation>
 				<Base>f_base</Base>
-				<Name>Officer III</Name>
+				<Name>巡査部長</Name>
 				<Gender>female</Gender>
 				<Components>
 					<Component id="10" drawable="7" texture="1" />
@@ -71,7 +72,7 @@
 			</Variation>
 			<Variation>
 				<Base>f_base</Base>
-				<Name>Senior Officer</Name>
+				<Name>上級巡査</Name>
 				<Gender>female</Gender>
 				<Components>
 					<Component id="10" drawable="7" texture="2" />
@@ -79,7 +80,7 @@
 			</Variation>
 			<Variation>
 				<Base>f_base</Base>
-				<Name>Detective</Name>
+				<Name>刑事</Name>
 				<Gender>female</Gender>
 				<Components>
 					<Component id="10" drawable="7" texture="3" />
@@ -88,12 +89,12 @@
 		</Variations>
 	</Outfit>
 	<Outfit>
-		<Name>The Spook</Name>
+		<Name>スパイ</Name>
 		<ScriptName>mp_iaa</ScriptName>
 		<Variations>
 			<Variation>
 				<ScriptName>m_base</ScriptName>
-				<Name>IAA Response</Name>
+				<Name>IAA 初動対応</Name>
 				<Gender>male</Gender>
 				<Components>
 					<Component id="1" drawable="0" texture="0" />
@@ -110,7 +111,7 @@
 			</Variation>
 			<Variation>
 				<Base>m_base</Base>
-				<Name>IAA Agent</Name>
+				<Name>IAA 捜査官</Name>
 				<Gender>male</Gender>
 				<Components>
 					<Component id="7" drawable="128" texture="0" />
@@ -120,7 +121,7 @@
 			</Variation>
 			<Variation>
 				<ScriptName>f_base</ScriptName>
-				<Name>IAA Response</Name>
+				<Name>IAA 初動対応</Name>
 				<Gender>female</Gender>
 				<Components>
 					<Component id="1" drawable="0" texture="0" />
@@ -137,7 +138,7 @@
 			</Variation>
 			<Variation>
 				<Base>f_base</Base>
-				<Name>IAA Agent</Name>
+				<Name>IAA 捜査官</Name>
 				<Gender>female</Gender>
 				<Components>
 					<Component id="7" drawable="98" texture="0" />
@@ -148,12 +149,12 @@
 		</Variations>
 	</Outfit>
 	<Outfit>
-		<Name>The Suit</Name>
+		<Name>スーツの男</Name>
 		<ScriptName>mp_fib</ScriptName>
 		<Variations>
 			<Variation>
 				<ScriptName>m_base</ScriptName>
-				<Name>Blue Tie</Name>
+				<Name>青ネクタイ</Name>
 				<Gender>male</Gender>
 				<Components>
 					<Component id="1" drawable="121" texture="0" /> <!-- Earpiece -->
@@ -173,7 +174,7 @@
 			</Variation>
 			<Variation>
 				<Base>m_base</Base>
-				<Name>Red Tie</Name>
+				<Name>赤ネクタイ</Name>
 				<Gender>male</Gender>
 				<Components>
 					<Component id="7" drawable="115" texture="1" /> <!-- Red Tie & Flag Pin -->
@@ -186,7 +187,7 @@
 		<Variations>
 			<Variation>
 				<ScriptName>f_base</ScriptName>
-				<Name>Black Suit</Name>
+				<Name>黒スーツ</Name>
 				<Gender>female</Gender>
 				<Components>
 					<Component id="3" drawable="1" texture="0" />
@@ -206,7 +207,7 @@
 			</Variation>
 			<Variation>
 				<Base>f_base</Base>
-				<Name>Navy Suit</Name>
+				<Name>紺スーツ</Name>
 				<Gender>female</Gender>
 				<Components>
 					<Component id="11" drawable="137" texture="5" /> <!-- Navy Long Suit -->
@@ -219,7 +220,7 @@
 			</Variation>
 			<Variation>
 				<Base>f_base</Base>
-				<Name>Gray Suit</Name>
+				<Name>灰スーツ</Name>
 				<Gender>female</Gender>
 				<Components>
 					<Component id="11" drawable="137" texture="2" /> <!-- Gray Long Suit -->
@@ -233,12 +234,12 @@
 		</Variations>
 	</Outfit>
 	<Outfit>
-		<Name>The Fed</Name>
+		<Name>連邦捜査官</Name>
 		<ScriptName>mp_fib_shirt</ScriptName>
 		<Variations>
 			<Variation>
 				<ScriptName>m_base</ScriptName>
-				<Name>Blue Shirt</Name>
+				<Name>青シャツ</Name>
 				<Gender>male</Gender>
 				<Components>
 					<Component id="1" drawable="121" texture="0" /> <!-- Earpiece -->
@@ -258,7 +259,7 @@
 			</Variation>
 			<Variation>
 				<Base>m_base</Base>
-				<Name>Gray Shirt</Name>
+				<Name>灰シャツ</Name>
 				<Gender>male</Gender>
 				<Components>
 					<Component id="7" drawable="38" texture="0" /> <!-- Charcoal Straight Tie -->
@@ -272,7 +273,7 @@
 			</Variation>
 			<Variation>
 				<Base>m_base</Base>
-				<Name>White Shirt</Name>
+				<Name>白シャツ</Name>
 				<Gender>male</Gender>
 				<Components>
 					<Component id="7" drawable="38" texture="11" /> <!-- Blue Diamond Straight Tie -->
@@ -286,7 +287,7 @@
 			</Variation>
 			<Variation>
 				<ScriptName>f_base</ScriptName>
-				<Name>White Blouse</Name>
+				<Name>白ブラウス</Name>
 				<Gender>female</Gender>
 				<Components>
 					<Component id="1" drawable="121" texture="0" /> <!-- Earpiece -->
@@ -308,7 +309,7 @@
 			</Variation>
 			<Variation>
 				<Base>f_base</Base>
-				<Name>Black Blouse</Name>
+				<Name>黒ブラウス</Name>
 				<Gender>female</Gender>
 				<Components>
 					<Component id="11" drawable="27" texture="1" /> <!-- Black Blouse -->
@@ -322,7 +323,7 @@
 			</Variation>
 			<Variation>
 				<Base>f_base</Base>
-				<Name>Gray Blouse</Name>
+				<Name>灰ブラウス</Name>
 				<Gender>female</Gender>
 				<Components>
 					<Component id="11" drawable="27" texture="5" /> <!-- Gray Blouse -->
@@ -337,12 +338,12 @@
 		</Variations>
 	</Outfit>
 	<Outfit>
-		<Name>The Rehabilitator</Name>
+		<Name>更生指導官</Name>
 		<ScriptName>mp_saspa</ScriptName>
 		<Variations>
 			<Variation>
 				<ScriptName>m_base</ScriptName>
-				<Name>Beige Uniform</Name>
+				<Name>ベージュ制服</Name>
 				<Gender>male</Gender>
 				<Components>
 					<Component id="1" drawable="0" texture="0" />
@@ -362,7 +363,7 @@
 			</Variation>
 			<Variation>
 				<Base>m_base</Base>
-				<Name>Sage Uniform</Name>
+				<Name>セージ制服</Name>
 				<Gender>male</Gender>
 				<Components>
 					<Component id="11" drawable="317" texture="4" /> <!-- Sage Uniform Open -->
@@ -370,7 +371,7 @@
 			</Variation>
 			<Variation>
 				<ScriptName>f_base</ScriptName>
-				<Name>Beige Uniform</Name>
+				<Name>ベージュ制服</Name>
 				<Gender>female</Gender>
 				<Components>
 					<Component id="1" drawable="0" texture="0" />
@@ -390,7 +391,7 @@
 			</Variation>
 			<Variation>
 				<Base>f_base</Base>
-				<Name>Sage Uniform</Name>
+				<Name>セージ制服</Name>
 				<Gender>female</Gender>
 				<Components>
 					<Component id="11" drawable="328" texture="4" /> <!-- Sage Uniform Open -->
@@ -399,7 +400,7 @@
 		</Variations>
 	</Outfit>
 	<Outfit>
-		<Name>The Operative</Name>
+		<Name>工作員</Name>
 		<ScriptName>mp_noose</ScriptName>
 		<Variations>
 			<Variation>
@@ -424,7 +425,7 @@
 			</Variation>
 			<Variation>
 				<Base>m_base</Base>
-				<Name>Police</Name>
+				<Name>警察</Name>
 				<Gender>male</Gender>
 				<Components>
 					<Component id="10" drawable="70" texture="1" /> <!-- POLICE Decal -->
@@ -452,7 +453,7 @@
 			</Variation>
 			<Variation>
 				<Base>f_base</Base>
-				<Name>Police</Name>
+				<Name>警察</Name>
 				<Gender>female</Gender>
 				<Components>
 					<Component id="10" drawable="79" texture="1" /> <!-- POLICE Decal -->
@@ -461,12 +462,12 @@
 		</Variations>
 	</Outfit>
 	<Outfit>
-		<Name>The Valiant</Name>
+		<Name>勇敢部隊</Name>
 		<ScriptName>mp_fire</ScriptName>
 		<Variations>
 			<Variation>
 				<ScriptName>m_base</ScriptName>
-				<Name>Yellow Turnout</Name>
+				<Name>黄色活動服</Name>
 				<Gender>male</Gender>
 				<Components>
 					<Component id="1" drawable="0" texture="0" /> 
@@ -483,7 +484,7 @@
 			</Variation>
 			<Variation>
 				<Base>m_base</Base>
-				<Name>Yellow Turnout (Helmet)</Name>
+				<Name>黄色活動服（ヘルメット付）</Name>
 				<Gender>male</Gender>
 				<Props>
 					<Prop id ="0" drawable="138" texture="0" /> <!-- Yellow Firefighter & Goggles -->
@@ -492,7 +493,7 @@
 			<Variation>
 				<ScriptName>m_brown</ScriptName>
 				<Base>m_base</Base>
-				<Name>Brown Turnout</Name>
+				<Name>茶色活動服</Name>
 				<Gender>male</Gender>
 				<Components>
 					<Component id="11" drawable="315" texture="1" /> <!-- Brown Open Firefighter Coat -->
@@ -501,7 +502,7 @@
 			</Variation>
 			<Variation>
 				<Base>m_brown</Base>
-				<Name>Brown Turnout (Helmet)</Name>
+				<Name>茶色活動服（ヘルメット付）</Name>
 				<Gender>male</Gender>
 				<Props>
 					<Prop id ="0" drawable="138" texture="1" /> <!-- Orange Firefighter & Goggles -->
@@ -511,7 +512,7 @@
 		<Variations>
 			<Variation>
 				<ScriptName>f_base</ScriptName>
-				<Name>Yellow Turnout</Name>
+				<Name>黄色活動服</Name>
 				<Gender>female</Gender>
 				<Components>
 					<Component id="1" drawable="0" texture="0" /> 
@@ -528,7 +529,7 @@
 			</Variation>
 			<Variation>
 				<Base>f_base</Base>
-				<Name>Yellow Turnout (Helmet)</Name>
+				<Name>黄色活動服（ヘルメット付）</Name>
 				<Gender>female</Gender>
 				<Props>
 					<Prop id="0" drawable="137" texture="0" /> <!-- Yellow Firefighter & Goggles -->
@@ -537,7 +538,7 @@
 			<Variation>
 				<ScriptName>f_brown</ScriptName>
 				<Base>f_base</Base>
-				<Name>Brown Turnout</Name>
+				<Name>茶色活動服</Name>
 				<Gender>female</Gender>
 				<Components>
 					<Component id="11" drawable="326" texture="1" /> <!-- Brown Open Firefighter Coat -->
@@ -546,7 +547,7 @@
 			</Variation>
 			<Variation>
 				<Base>f_brown</Base>
-				<Name>Brown Turnout (Helmet)</Name>
+				<Name>茶色活動服（ヘルメット付）</Name>
 				<Gender>female</Gender>
 				<Props>
 					<Prop id="0" drawable="137" texture="1" /> <!-- Orange Firefighter & Goggles -->
@@ -555,12 +556,12 @@
 		</Variations>
 	</Outfit>
 	<Outfit>
-		<Name>The Dauntless</Name>
+		<Name>不動部隊</Name>
 		<ScriptName>mp_fire_scba</ScriptName>
 		<Variations>
 			<Variation>
 				<ScriptName>m_base</ScriptName>
-				<Name>Yellow SCBA</Name>
+				<Name>黄色SCBA</Name>
 				<Gender>male</Gender>
 				<Components>
 					<Component id="1" drawable="122" texture="0" /> <!-- Hood -->
@@ -580,7 +581,7 @@
 			</Variation>
 			<Variation>
 				<Base>m_base</Base>
-				<Name>Brown SCBA</Name>
+				<Name>茶色SCBA</Name>
 				<Gender>male</Gender>
 				<Components>
 					<Component id="11" drawable="314" texture="1" /> <!-- Brown Closed Firefighter Coat -->
@@ -594,7 +595,7 @@
 		<Variations>
 			<Variation>
 				<ScriptName>f_base</ScriptName>
-				<Name>Yellow SCBA</Name>
+				<Name>黄色SCBA</Name>
 				<Gender>female</Gender>
 				<Components>
 					<Component id="1" drawable="122" texture="0" /> <!-- Hood -->
@@ -614,7 +615,7 @@
 			</Variation>
 			<Variation>
 				<Base>f_base</Base>
-				<Name>Brown SCBA</Name>
+				<Name>茶色SCBA</Name>
 				<Gender>female</Gender>
 				<Components>
 					<Component id="11" drawable="325" texture="1" /> <!-- Brown Open Firefighter Coat -->
@@ -627,12 +628,12 @@
 		</Variations>
 	</Outfit>
 	<Outfit>
-		<Name>Paramedic Shirt</Name>
+		<Name>救急救命シャツ</Name>
 		<ScriptName>mp_ems</ScriptName>
 		<Variations>
 			<Variation>
 				<ScriptName>m_base</ScriptName>
-				<Name>Blue Gloves</Name>
+				<Name>青手袋</Name>
 				<Gender>male</Gender>
 				<Components>
 					<Component id="1" drawable="0" texture="0" /> 
@@ -649,7 +650,7 @@
 			</Variation>
 			<Variation>
 				<Base>m_base</Base>
-				<Name>White Gloves</Name>
+				<Name>白手袋</Name>
 				<Gender>male</Gender>
 				<Components>
 					<Component id ="3" drawable="85" texture="1" /> <!-- White Surgical Gloves -->
@@ -659,7 +660,7 @@
 		<Variations>
 			<Variation>
 				<ScriptName>f_base</ScriptName>
-				<Name>Blue Gloves</Name>
+				<Name>青手袋</Name>
 				<Gender>female</Gender>
 				<Components>
 					<Component id="1" drawable="0" texture="0" /> 
@@ -676,7 +677,7 @@
 			</Variation>
 			<Variation>
 				<Base>f_base</Base>
-				<Name>White Gloves</Name>
+				<Name>白手袋</Name>
 				<Gender>female</Gender>
 				<Components>
 					<Component id="3" drawable="109" texture="1" /> <!-- White Surgical Gloves -->
@@ -685,12 +686,12 @@
 		</Variations>
 	</Outfit>
 	<Outfit>
-		<Name>Paramedic Jacket</Name>
+		<Name>救急救命ジャケット</Name>
 		<ScriptName>mp_ems_jacket</ScriptName>
 		<Variations>
 			<Variation>
 				<ScriptName>m_base</ScriptName>
-				<Name>Blue Gloves</Name>
+				<Name>青手袋</Name>
 				<Gender>male</Gender>
 				<Components>
 					<Component id="1" drawable="0" texture="0" /> 
@@ -710,7 +711,7 @@
 			</Variation>
 			<Variation>
 				<Base>m_base</Base>
-				<Name>White Gloves</Name>
+				<Name>白手袋</Name>
 				<Gender>male</Gender>
 				<Components>
 					<Component id ="3" drawable="86" texture="1" /> <!-- White Surgical Gloves -->
@@ -720,7 +721,7 @@
 		<Variations>
 			<Variation>
 				<ScriptName>f_base</ScriptName>
-				<Name>Blue Gloves</Name>
+				<Name>青手袋</Name>
 				<Gender>female</Gender>
 				<Components>
 					<Component id="1" drawable="0" texture="0" /> 
@@ -740,7 +741,7 @@
 			</Variation>
 			<Variation>
 				<Base>f_base</Base>
-				<Name>White Gloves</Name>
+				<Name>白手袋</Name>
 				<Gender>female</Gender>
 				<Components>
 					<Component id="3" drawable="105" texture="1" /> <!-- White Surgical Gloves -->

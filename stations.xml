@@ -1,6 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
 <PoliceStations>
 	<Station>
-		<Name>Vinewood Police Station</Name>
+		<Name>バインウッド警察署</Name>
 		<Agency>lspd</Agency>
 		<ScriptName>vinewoodPol</ScriptName>
 		<Position>638.5, 1.75, 82.8</Position>
@@ -10,7 +11,7 @@
 		<GarageSpawnPosition>534.696f, -26.82411f, 70.24203f; 210f</GarageSpawnPosition>
 	</Station>
 	<Station>
-		<Name>La Mesa Police Station</Name>
+		<Name>ラ・メサ警察署</Name>
 		<Agency>lspd</Agency>
 		<ScriptName>laMesaPol</ScriptName>
 		<Position>826.8f, -1290f, 28.24f</Position>
@@ -19,7 +20,7 @@
 		<GarageSpawnPosition>859.6852f, -1342.589f, 25.63685f; 90f</GarageSpawnPosition>
 	</Station>	
 	<Station>
-		<Name>Rockford Hills Police Station</Name>
+		<Name>ロックフォードヒルズ警察署</Name>
 		<Agency>lspd</Agency>
 		<ScriptName>rockfordPol</ScriptName>
 		<Position>-561.65f, -131.65f, 38.21f</Position>
@@ -31,7 +32,7 @@
 		<GarageSpawnPosition>-575.2366f, -150.0565f, 37.53278f; 202f</GarageSpawnPosition>
 	</Station>	
 	<Station>
-		<Name>Vespucci Police Station</Name>
+		<Name>ヴェスプッチ警察署</Name>
 		<Agency>lspd</Agency>
 		<ScriptName>vespucciPol</ScriptName>
 		<Position>-1108.18f, -845.18f, 19.32f</Position>
@@ -40,7 +41,7 @@
 		<GarageSpawnPosition>-1123.946f, -845.0295f, 13.03633f; 128f</GarageSpawnPosition>
 	</Station>	
 	<Station>
-		<Name>Downtown Police Station</Name>
+		<Name>ダウンタウン警察署</Name>
 		<Agency>lspd</Agency>
 		<ScriptName>downtownInterior</ScriptName>
 		<Position>450.0654f, -993.0596f, 30f</Position>
@@ -53,7 +54,7 @@
 		<DropOffPosition>477f, -1023f, 28.1f</DropOffPosition>
 	</Station>
 	<Station>
-		<Name>Davis Sheriff Station</Name>
+		<Name>デイビス保安官署</Name>
 		<Agency>lssd</Agency>
 		<ScriptName>davisSheriff</ScriptName>
 		<Position>360.97f, -1584.70f, 29.29f</Position>
@@ -65,7 +66,7 @@
 		<GarageSpawnPosition>384.5281f, -1622.423f, 28.89813f; 320f</GarageSpawnPosition>
 	</Station>
 	<Station>
-		<Name>Sandy Shores Sheriff Station</Name>
+		<Name>サンディショアーズ保安官署</Name>
 		<Agency>lssd</Agency>
 		<ScriptName>sandySheriff</ScriptName>
 		<Position>1848.73f, 3689.98f, 34.27f</Position>
@@ -77,7 +78,7 @@
 		<DropOffPosition>1851f, 3711.92f, 33.17f</DropOffPosition>
 	</Station>
 	<Station>
-		<Name>Paleto Bay Sheriff Station</Name>
+		<Name>パレトベイ保安官署</Name>
 		<Agency>lssd</Agency>
 		<ScriptName>paletoSheriff</ScriptName>
 		<Position>-448.22f, 6008.23f, 31.72f</Position>
@@ -91,14 +92,14 @@
 		<PrisonBusHeading>314</PrisonBusHeading>	
 	</Station>
 	<Station>
-		<Name>Beaver Bush Ranger Station</Name>
+		<Name>ビーバーブッシュレンジャー署</Name>
 		<Agency>sapr</Agency>
 		<ScriptName>beaverRanger</ScriptName>
 		<Position>379.31f, 792.06f, 190.41f</Position>
 		<Heading>0</Heading>
 	</Station>
 	<Station>
-		<Name>Los Santos Intl. Airport Field Office</Name>
+		<Name>ロスサントス国際空港 現地警備支所</Name>
 		<Agency>noose</Agency>
 		<ScriptName>lsxAirport</ScriptName>
 		<Position>-864.61f, -2408.92f, 14.03f</Position>
@@ -112,7 +113,7 @@
 		<GarageSpawnPosition>-897.2624f, -2384.005f, 13.5493f; 148f</GarageSpawnPosition>
 	</Station>
 	<Station>
-		<Name>Bolingbroke Penitentiary</Name>
+		<Name>ボリングブローク刑務所</Name>
 		<Agency>saspa</Agency>
 		<ScriptName>prison</ScriptName>
 		<Position>1846.49f, 2585.95f, 45.67f</Position>

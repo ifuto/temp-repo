@@ -1,13 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
 <Agencies>
 	<Agency>
-		<Name>Los Santos Police Department</Name>
+		<Name>ロスサントス警察局</Name>
 		<ShortName>LSPD</ShortName>
 		<ScriptName>lspd</ScriptName>
 		<Inventory>default</Inventory>
 		<TextureDictionary>web_lossantospolicedept</TextureDictionary>
 		<TextureName>web_lossantospolicedept</TextureName>
 		<Loadout>
-			<Name>Patrol Unit</Name>
+			<Name>パトロール部隊</Name>
 			<Vehicles>
 				<Vehicle>police</Vehicle>
 				<Vehicle>police2</Vehicle>
@@ -34,7 +35,7 @@
 			</Flags>
 		</Loadout>
 		<Loadout>
-			<Name>Transport Unit</Name>
+			<Name>移送部隊</Name>
 			<Vehicles>
 				<Vehicle>policet</Vehicle>
 				<Vehicle is_mp="true" use_modkit_liveries="true" livery_multi="1,2,3,5,6,19">polcaracara</Vehicle>
@@ -46,7 +47,7 @@
 			<Flags>RespondsAsTransport</Flags>  <!-- Makes the unit eligible to be called for prisoner transport.  Only use this if there will be free seats for prisoners. -->
 		</Loadout>
 		<Loadout chance="5">
-			<Name>Off Road Unit</Name>
+			<Name>オフロード部隊</Name>
 			<Vehicles>
 				<Vehicle is_mp="true" use_modkit_liveries="true" livery_multi="1,2,3,5,6,23">polterminus</Vehicle>
 			</Vehicles>
@@ -67,7 +68,7 @@
 			</Flags>
 		</Loadout>			
 		<Loadout chance="3">
-			<Name>High Speed Unit</Name>
+			<Name>高速対応部隊</Name>
 			<Vehicles>
 				<Vehicle is_mp="true" use_modkit_liveries="true" livery_multi="1,2,14,18">polgauntlet</Vehicle>
 				<Vehicle is_mp="true" use_modkit_liveries="true" livery_multi="1,6">poldominator10</Vehicle>
@@ -89,7 +90,7 @@
 			</Flags>
 		</Loadout>
 		<Loadout chance="3">
-			<Name>Classic Unit</Name>
+			<Name>クラシック部隊</Name>
 			<Vehicles>
 				<Vehicle is_mp="true" use_modkit_liveries="true" livery_multi="1,2,3,4,5,12">polgreenwood</Vehicle>
 				<Vehicle is_mp="true" use_modkit_liveries="true" livery_multi="1,2,3,4,11">polfaction2</Vehicle>
@@ -110,14 +111,14 @@
 		</Loadout>
 	</Agency>
 	<Agency>
-		<Name>Los Santos County Sheriff</Name>
+		<Name>ロスサントス郡保安官事務所</Name>
 		<ShortName>LSSD</ShortName>
 		<ScriptName>lssd</ScriptName>
 		<Inventory>default</Inventory>
 		<TextureDictionary>dia_police</TextureDictionary>
 		<TextureName>dia_police</TextureName>
 		<Loadout>
-			<Name>Patrol Unit</Name>
+			<Name>パトロール部隊</Name>
 			<Vehicles>
 				<Vehicle>sheriff</Vehicle>
 				<Vehicle is_mp="true" use_modkit_liveries="true" livery_multi="9,21,26">police5</Vehicle>
@@ -142,7 +143,7 @@
 			</Flags>
 		</Loadout>
 		<Loadout chance="5">
-			<Name>Off Road Unit</Name>
+			<Name>オフロード部隊</Name>
 			<Vehicles>
 				<Vehicle is_mp="true" use_modkit_liveries="true" livery_multi="10,22,25">polterminus</Vehicle>
 				<Vehicle is_mp="true" use_modkit_liveries="true" livery_multi="10,22,25">polcaracara</Vehicle>
@@ -164,7 +165,7 @@
 			</Flags>
 		</Loadout>
 		<Loadout chance="3">
-			<Name>High Speed Unit</Name>
+			<Name>高速対応部隊</Name>
 			<Peds>
 				<!-- 75% chance of male peds -->
 				<Ped chance="60" inventory="patrol">s_m_y_sheriff_01</Ped> <!-- 60% chance of male sheriff ped with basic patrol inventory -->
@@ -186,7 +187,7 @@
 			</Flags>
 		</Loadout>
 		<Loadout chance="4">
-			<Name>Classic Unit</Name>
+			<Name>クラシック部隊</Name>
 			<Vehicles>
 				<Vehicle is_mp="true" use_modkit_liveries="true" livery_multi="8,9,19,20">polgreenwood</Vehicle>
 				<Vehicle is_mp="true" use_modkit_liveries="true" livery_multi="7,8">polfaction2</Vehicle>
@@ -208,14 +209,14 @@
 		</Loadout>
 	</Agency>
 	<Agency>
-		<Name>San Andreas Highway Patrol</Name>
+		<Name>サンアンドレアス・ハイウェイ・パトロール</Name>
 		<ShortName>SAHP</ShortName>
 		<ScriptName>sahp</ScriptName>
 		<Inventory>default</Inventory>
 		<TextureDictionary>s_m_y_hwaycop_01</TextureDictionary>
 		<TextureName>decl_diff_001_a_uni</TextureName>
 		<Loadout>
-			<Name>Motor Unit</Name>
+			<Name>交通機動部隊</Name>
 			<Vehicles>
 				<Vehicle>policeb</Vehicle>
 				<Vehicle is_mp="true" use_modkit_liveries="true" livery_multi="4,16">policeb2</Vehicle>
@@ -230,7 +231,7 @@
 			</Flags>
 		</Loadout>
 		<Loadout>
-			<Name>Patrol Unit</Name>
+			<Name>パトロール部隊</Name>
 			<Vehicles>
 				<Vehicle is_mp="true" use_modkit_liveries="true" livery_multi="8,20,25">police5</Vehicle>
 				<Vehicle is_mp="true" use_modkit_liveries="true" livery_multi="5,6,10,11">polimpaler5</Vehicle>
@@ -247,7 +248,7 @@
 			</Flags>
 		</Loadout>
 		<Loadout chance="5">
-			<Name>Off Road Unit</Name>
+			<Name>オフロード部隊</Name>
 			<Vehicles>
 				<Vehicle is_mp="true" use_modkit_liveries="true" livery_multi="8,9,20,21">polterminus</Vehicle>
 				<Vehicle is_mp="true" use_modkit_liveries="true" livery_multi="10,22,25">polcaracara</Vehicle>
@@ -269,7 +270,7 @@
 			</Flags>
 		</Loadout>
 		<Loadout chance="5">
-			<Name>High Speed Unit</Name>
+			<Name>高速対応部隊</Name>
 			<Vehicles>
 				<Vehicle is_mp="true" use_modkit_liveries="true" livery_multi="4,16,19">polgauntlet</Vehicle>
 				<Vehicle is_mp="true" use_modkit_liveries="true" livery_multi="2,3,7,8">poldominator10</Vehicle>
@@ -285,7 +286,7 @@
 			</Flags>
 		</Loadout>
 		<Loadout chance="5">
-			<Name>Classic Unit</Name>
+			<Name>クラシック部隊</Name>
 			<Vehicles>
 				<Vehicle is_mp="true" use_modkit_liveries="true" livery_multi="6,7,10,11">polgreenwood</Vehicle>
 				<Vehicle is_mp="true" use_modkit_liveries="true" livery_multi="5,6,10">polfaction2</Vehicle>
@@ -298,14 +299,14 @@
 		</Loadout>
 	</Agency>
 	<Agency>
-		<Name>North Yankton State Patrol</Name>
+		<Name>ノースヤンクトン州警</Name>
 		<ShortName>NYSP</ShortName>
 		<ScriptName>nysp</ScriptName>
 		<TextureDictionary>dia_police</TextureDictionary>
 		<TextureName>dia_police</TextureName>
 		<Inventory>default</Inventory>
 		<Loadout>
-			<Name>Patrol Unit</Name>
+			<Name>パトロール部隊</Name>
 			<Vehicles>
 				<Vehicle>policeold1</Vehicle>
 				<Vehicle>policeold2</Vehicle>
@@ -322,13 +323,13 @@
 		</Loadout>
 	</Agency>
 	<Agency>
-		<Name>Los Santos Police Department SWAT</Name>
+		<Name>ロスサントス警察局 SWAT</Name>
 		<ShortName>LSPD</ShortName>
 		<ScriptName>lspd_swat</ScriptName>
 		<Inventory>swat</Inventory>
 		<Parent>lspd</Parent>
 		<Loadout>
-			<Name>SWAT Unit</Name>
+			<Name>SWAT部隊</Name>
 			<Vehicles>
 				<Vehicle extra_1="false" extra_2="false">police</Vehicle>
 			</Vehicles>
@@ -345,13 +346,13 @@
 		</Loadout>
 	</Agency>
 	<Agency>
-		<Name>Los Santos County Sheriff SWAT</Name>
+		<Name>ロスサントス郡保安官 SWAT</Name>
 		<ShortName>LSSD</ShortName>
 		<ScriptName>lssd_swat</ScriptName>
 		<Inventory>swat</Inventory>
 		<Parent>lssd</Parent>
 		<Loadout>
-			<Name>SWAT Unit</Name>
+			<Name>SWAT部隊</Name>
 			<Vehicles>
 				<Vehicle>sheriff2</Vehicle>
 			</Vehicles>
@@ -366,14 +367,14 @@
 		</Loadout>
 	</Agency>
 	<Agency>
-		<Name>National Office of Security Enforcement</Name>
+		<Name>国家安全保障執行局</Name>
 		<ShortName>NOOSE</ShortName>
 		<ScriptName>noose</ScriptName>
 		<TextureDictionary>ap1_03</TextureDictionary>
 		<TextureName>ap1_03_noose2bap1_03_noose2</TextureName>
 		<Inventory>swat</Inventory>
 		<Loadout>
-			<Name>SWAT Unit</Name>
+			<Name>SWAT部隊</Name>
 			<Vehicles>
 				<Vehicle>fbi2</Vehicle>
 			</Vehicles>
@@ -389,13 +390,13 @@
 		</Loadout>
 	</Agency>
 	<Agency>
-		<Name>LSPD Air Support Unit</Name>
+		<Name>LSPD 航空支援部隊</Name>
 		<ShortName>LSPD</ShortName>
 		<ScriptName>lspd_asu</ScriptName>
 		<Parent>lspd</Parent>
 		<Inventory>default</Inventory>
 		<Loadout>
-			<Name>Air Unit</Name>
+			<Name>航空部隊</Name>
 			<Vehicles>
 				<Vehicle livery="1">polmav</Vehicle>
 			</Vehicles>
@@ -409,13 +410,13 @@
 		</Loadout>
 	</Agency>
 	<Agency>
-		<Name>NOOSE Air Support Unit</Name>
+		<Name>NOOSE 航空支援部隊</Name>
 		<ShortName>NOOSE</ShortName>
 		<ScriptName>noose_asu</ScriptName>
 		<Parent>noose</Parent>
 		<Inventory>default</Inventory>
 		<Loadout>
-			<Name>Air Unit</Name>
+			<Name>航空部隊</Name>
 			<Vehicles>
 				<Vehicle weapon="VEHICLE_WEAPON_PLAYER_BUZZARD">buzzard</Vehicle>
 			</Vehicles>
@@ -430,11 +431,11 @@
 		</Loadout>
 	</Agency>
 	<Agency>
-		<Name>Los Santos Fire Department (EMS)</Name>
+		<Name>ロスサントス消防局（EMS）</Name>
 		<ShortName>LSFD</ShortName>
 		<ScriptName>lsfd</ScriptName>
 		<Loadout>
-			<Name>Rescue Ambulance</Name>
+			<Name>救急救難部隊</Name>
 			<Vehicles>
 				<Vehicle livery="2">ambulance</Vehicle>
 			</Vehicles>
@@ -452,13 +453,13 @@
 		</Loadout>
 	</Agency>
 	<Agency>
-		<Name>Los Santos Fire Department (Fire)</Name>
+		<Name>ロスサントス消防局（消防）</Name>
 		<ShortName>LSFD</ShortName>
 		<ScriptName>lsfd_fire</ScriptName>
 		<Parent>lsfd</Parent>
 		<Inventory>fire</Inventory>
 		<Loadout>
-			<Name>Fire Truck</Name>
+			<Name>消防車</Name>
 			<Vehicles>
 				<Vehicle>firetruk</Vehicle>
 			</Vehicles>
@@ -473,7 +474,7 @@
 			</Flags>
 		</Loadout>
 		<Loadout>
-			<Name>Fire Truck (SCBA)</Name>
+			<Name>消防車（SCBA）</Name>
 			<Vehicles>
 				<Vehicle>firetruk</Vehicle>
 			</Vehicles>
@@ -489,7 +490,7 @@
 	</Agency>
 	<!-- The following agencies do not patrol by default but are defined nonetheless.  By default, the DOA and SASPA will not be available as backup. -->
 	<Agency>
-		<Name>Federal Investigation Bureau</Name>
+		<Name>連邦捜査局</Name>
 		<ShortName>FIB</ShortName>
 		<ScriptName>fib</ScriptName>
 		<TextureDictionary>s_m_m_fibsec_01</TextureDictionary>
@@ -498,7 +499,7 @@
 		<BadgeModel>prop_fib_badge</BadgeModel>
 		<EvidenceMarkerModel>ch_prop_ch_fib_01a</EvidenceMarkerModel>
 		<Loadout>
-			<Name>Investigation Team</Name>
+			<Name>捜査チーム</Name>
 			<Vehicles>
 				<Vehicle>fbi</Vehicle>
 				<Vehicle>fbi2</Vehicle>
@@ -515,7 +516,7 @@
 			</Flags>
 		</Loadout>
 		<Loadout>
-			<Name>Response Team</Name>
+			<Name>初動対応チーム</Name>
 			<Vehicles>
 				<Vehicle>fbi</Vehicle>
 				<Vehicle>fbi2</Vehicle>
@@ -530,7 +531,7 @@
 			</Flags>
 		</Loadout>
 		<Loadout>
-			<Name>SWAT Team</Name>
+			<Name>SWATチーム</Name>
 			<Vehicles>
 				<Vehicle>fbi2</Vehicle>
 			</Vehicles>
@@ -545,14 +546,14 @@
 		</Loadout>
 	</Agency>
 	<Agency>
-		<Name>International Affairs Agency</Name>
+		<Name>国際問題調査局</Name>
 		<ShortName>IAA</ShortName>
 		<ScriptName>iaa</ScriptName>
 		<TextureDictionary>v_33_cur_of3_deta001+hidr</TextureDictionary>
 		<TextureName>dm_iaa_01</TextureName>
 		<Inventory>default</Inventory>
 		<Loadout>
-			<Name>Response Team</Name>
+			<Name>初動対応チーム</Name>
 			<Vehicles>
 				<Vehicle>fbi</Vehicle>
 				<Vehicle>fbi2</Vehicle>
@@ -570,7 +571,7 @@
 		</Loadout>
 	</Agency>
 	<Agency>
-		<Name>Drug Observation Agency</Name>
+		<Name>薬物取締局</Name>
 		<ShortName>DOA</ShortName>
 		<ScriptName>doa</ScriptName>
 		<TextureDictionary>web_doa</TextureDictionary>
@@ -578,14 +579,14 @@
 		<Inventory>default</Inventory>
 		<ExcludeFromBackupMenu>true</ExcludeFromBackupMenu>
 		<Loadout>
-			<Name>Agent</Name>
+			<Name>捜査官</Name>
 			<Peds>
 				<Ped>u_m_m_doa_01</Ped>
 			</Peds>
 		</Loadout>
 	</Agency>
 	<Agency>
-		<Name>San Andreas State Prison Authority</Name>
+		<Name>サンアンドレアス州立刑務所管理局</Name>
 		<ShortName>SASPA</ShortName>
 		<ScriptName>saspa</ScriptName>
 		<TextureDictionary>dia_security</TextureDictionary>
@@ -594,7 +595,7 @@
 		<ShieldModel>prop_riot_shield</ShieldModel>
 		<ExcludeFromBackupMenu>true</ExcludeFromBackupMenu>
 		<Loadout>
-			<Name>Prison Bus</Name>
+			<Name>刑務バス</Name>
 			<Vehicles>
 				<Vehicle>pbus</Vehicle>
 			</Vehicles>
@@ -607,14 +608,14 @@
 		</Loadout>
 	</Agency>
 	<Agency>
-		<Name>San Andreas Park Rangers</Name>
+		<Name>サンアンドレアス州立公園警察</Name>
 		<ShortName>SAPR</ShortName>
 		<ScriptName>sapr</ScriptName>
 		<TextureDictionary>dia_police</TextureDictionary>
 		<TextureName>dia_police</TextureName>
 		<Inventory>default</Inventory>
 		<Loadout>
-			<Name>Patrol Unit</Name>
+			<Name>パトロール部隊</Name>
 			<Vehicles>
 				<Vehicle>pranger</Vehicle>
 				<Vehicle is_mp="true" use_modkit_liveries="true" livery_multi="22,23">police5</Vehicle>
